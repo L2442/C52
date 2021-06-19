@@ -1,0 +1,47 @@
+h1{
+    color : blue;
+    margin-left: 20px;
+}
+
+.header{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;  
+    flex-wrap: wrap;  
+}
+
+.icon{
+    align-content: center;
+    position: relative;
+}
+
+.icon p{
+    font-family : 'Trebuchet MS';
+    position: absolute;
+    top: 35%;
+    left:35%;
+}
+
+.icon:hover p{
+    opacity: 1;
+}
+
+.icon:hover img{
+    opacity:0.5;
+}
+
+body{
+    background : #808080;
+}
+
+.header a{
+    border: solid;
+    margin-right: 20px;
+}
